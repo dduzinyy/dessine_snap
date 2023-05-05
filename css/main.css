@@ -1,0 +1,37 @@
+.section {
+    position: relative;
+    
+}
+.section .inner {
+    max-width: 98%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.wrap .inner a {
+    width: 1080px;
+    height: 514px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.wrap .inner .logo {
+    width: 1080px;
+    height: 514px;
+    background-image: url(../img/profile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    text-indent: -9999px;
+}
+
+.wrap .inner .program-img {
+    width: 1080px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-inline-start: 0px;
+}
+.wrap .inner .program-img li{
+    margin-bottom: 20px;
+    list-style: none;
+}
