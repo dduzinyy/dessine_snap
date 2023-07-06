@@ -276,7 +276,7 @@ header .logo a {
     margin-bottom: 10px;
 
 }
-.contents .program-img li:first-child {
+.contents .program-img .check {
     margin-bottom: 50px;
 }
 .contents ul li img{
