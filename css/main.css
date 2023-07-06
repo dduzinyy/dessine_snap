@@ -234,11 +234,13 @@ header .logo a {
     font-family: 'Cormorant Garamond', serif; 
     margin-left: 65px;
     margin-bottom: 10px;
+    font-weight: 300;
 }
 
 .contents .title span {
     font-size: 26px;
     font-family: 'Noto Serif KR', serif;
+    font-weight: 300;
 }
 .contents .title h3 {
     text-align: center;
