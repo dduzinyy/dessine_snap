@@ -225,6 +225,7 @@ header .logo a {
     text-align: center;
     font-size: 32px;
     font-family: 'Cormorant Garamond', serif; 
+    font-weight: 300;
 }
 .contents .title .new_h {
     width: 272px;
