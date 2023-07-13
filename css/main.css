@@ -1,9 +1,7 @@
-* {
-    margin: 0;
-    padding: 0;
-}
 .body_container {
     width: 100%;
+    margin: 0;
+    padding: 0;
     font-size: 16px;
     color: #141414;
 }
@@ -216,6 +214,7 @@ header .logo a {
 /* CONTENTS */
 .contents {
     width: 100%;
+    margin-top: 20px;
 }
 .contents .title {
     width: 370px;
@@ -290,7 +289,7 @@ header .logo a {
 
 /* FOOTER */
 footer {
-    padding: 50px 0 10px 0;
+    padding: 70px 0 30px 0;
 }
 footer p {
     text-align: center;
