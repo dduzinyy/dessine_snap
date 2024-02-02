@@ -10,7 +10,7 @@
 
 
 
-    const $toggles = document.querySelectorAll('.toggle'); //NodeList
+    const $toggles = document.querySelectorAll('.toggle-menu'); //NodeList
     const $toggleBtn = document.getElementById('toggle-btn');
     
     

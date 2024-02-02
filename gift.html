@@ -2,77 +2,125 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>제공 서비스</title>
-    <meta name="autor" content="Leesujin">
-    <meta name="description"content="2023 Portfolio">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dé petit cadeau</title>
 
+    <meta name="author" content="dessiné snap">
+    <meta name="description" content="drawing your moments"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1, minimum-scale=1"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <meta property="og:type=" content="website">
+    <meta preoperty="og:title" content="dessiné snap">
+    <meta property="og: description" content="drawing your moments">
+    <meta property="og:image" content="img/profile.jpg">
+    <meta property="og:url" content="https://www.instagram.com/dessine_snap/">
+
+
+    <!-- https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started.html -->
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:site" content="dessiné snap">
+    <meta property="twitter:title" content="Build software better, together">
+    <meta property="twitter:description" content="drawing your moments">
+    <meta property="twitter:image" content="img/profile.jpg">
+    <meta property="twitter:url" content="https://www.instagram.com/dessine_snap/">
+
+    <!--<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">-->
+    <link rel="icon" href="favicon.png">
+    <link rel="apple-touch-icon" href="favicon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Noto+Sans+KR:wght@300&family=Noto+Serif+KR:wght@300;400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/main.css">
-    <script defer src="toggle.js"></script>
     
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" media="all and (max-width: 1024px)" href="css/main_medium.css">
+    <link rel="stylesheet" media="all and (max-width: 768px)" href="css/main_small.css">
 
-      
+    <script defer src="toggle.js"></script>
+
 </head>
 <body>
-<div class="body_container">
+    <div class="body_container section">
 
         <header class="section">
-            <div class="inner">
+            <div class="header-fix">
+                <div class="inner">
 
-                <div class="logo float--left ">
-                    <a href="https://link.inpock.co.kr/dessine_snap"></a>
+                    <div class="logo float--left ">
+                        <a href="index.html"></a>
+                    </div>
+
+                    <ul class="main-menu float--right toggle">
+                        <li><a href="program.html">Product</a></li>
+                        <li><a href="reservation.html">Reservation</a></li>
+                        <li><a href="gift.html">dé petit cadeau</a></li>
+                        <li><a href="https://www.instagram.com/dessine_snap/" target="_blank">instagram</a></li>
+                
+                    </ul>
+                    
+
+                     <!--TOGGLE-->
+                    <div id="toggle-btn" class="float--right">
+                        <div id="burger"></div>
+                    </div>
                 </div>
-
-                <div id="toggle-btn" class="float--right">
-                    <div id="burger"></div>
-                </div>
-
             </div>
+
         </header>
 
         <!--toggle menu-->
-        <nav class="toggle">
+        <nav class="toggle-menu">
             <div class="menu-group">
                 <div class="slide">
-                   <!-- <div class="sub_logo">
-                        <img src="../img/sub_logo.svg">
-                    </div>-->
-                    <ul class="main-menu">
-                       
-                        <li><a href="new_open.html">스냅 구성</a></li>
-                        <li><a href="reservation.html">예약 및 환불 규정</a></li>
-                        <li><a href="gift.html">제공 서비스</a></li>
-                        <li><a href="event.html">이벤트</a></li>
-                    </ul>
-                    
+                    <ul class="slide-menu">
+                        <li><a href="program.html">Product</a></li>
+                        <li><a href="reservation.html">Reservation</a></li>
+                        <li><a href="gift.html">dé petit cadeau</a></li>
+                        <li><a href="https://www.instagram.com/dessine_snap/" target="_blank">instagram</a></li>
+                    </ul>   
                 </div>
             </div>
         </nav>
 
+
         <!--이미지들-->
         <div class="contents section">
             <div class="inner">
-
-                <div class="title">
-                    <h1>DÉ PETIT CADEAU </h1>
-                    <h3>제공 서비스</h3>
+                <div class="sec_a">
+                    <div class="title">
+                        <h1>dé petit cadeau</h1>
+                        <h3>제공 상품</h3>
+                    </div>
+                    <ul class="program-img">
+                        <li><img src="img/gift.jpg"></li>
+                        
+                    </ul>
                 </div>
-                <ul class="program-img">
-                    <li><img src="img/gift.jpg"></li>
-                </ul>
+
+                <!--div class="sec_b">
+                    <div class="title">
+                        <h1>REFUND</h1>
+                        <h3>환불규정</h3>
+                    </div>
+                    <ul class="program-img">
+                        <li><img src="img/event.jpg"></li>
+                        
+                    </ul>
+                </div-->
+
 
             </div>
         </div>
 
         <footer class="section">
-           <p>Copyright 2023. dessiné All rights reserved.</p> 
+           <p>Copyright 2024. dessiné All rights reserved.</p> 
         </footer>
 
     
-</div>    
+</div>        
+    
 </body>
 </html>
-
