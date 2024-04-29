@@ -79,7 +79,7 @@ header .logo a {
     display: block;
 }
 header .main-menu {
-    width: 626px;
+    width: 788px; /*원래 626px; */
     height: 100%;
     display: flex;
     align-items: center;
@@ -87,6 +87,9 @@ header .main-menu {
 }
 header .main-menu li {
     padding-right: 40px;
+}
+header .main-menu li:first-child a{
+    color: #a51616;
 }
 header .main-menu li:last-child {
     padding-right: 0px;
@@ -120,6 +123,7 @@ header .main-menu li a{
     -ms-transition: 0.4s;
     -o-transition: 0.4s;
 }
+
 
 
 /*MAIN PAGE*/
