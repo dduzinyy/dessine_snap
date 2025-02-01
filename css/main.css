@@ -79,7 +79,7 @@ header .logo a {
     display: block;
 }
 header .main-menu {
-    width: 788px; /*원래 626px; */
+    width: 680px; /*원래 626px; */
     height: 100%;
     display: flex;
     align-items: center;
